@@ -435,7 +435,7 @@ function getElementByIndices(arr, indices) {
   return indices.reduce((acc, index) => acc[index], arr);
 }
 
-/** 
+/**
  * Returns the number of all falsy values in the specified array.
  *
  * @param {array} arr - The input array.
